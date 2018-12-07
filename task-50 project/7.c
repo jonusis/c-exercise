@@ -12,7 +12,7 @@ int main(void)
       j *= a[i];
     }
     printf("%d",j);
-    j = 0;
+    j = 1;
   }
   return 0;
 }
