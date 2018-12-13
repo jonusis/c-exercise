@@ -1,7 +1,7 @@
 #include<stdio.h>
 
-void str_dcount(const char s[]){
-  int cnt[110] = {0};
+void str_dcount( char s[]){
+  int cnt[5] = {0};
   char t[] = "aeiou";
   int i = 0;
   int x = 0;
@@ -23,6 +23,7 @@ int main(void){
   	for(i = 0;i < a; i++)
   	  scanf("%s", str[i]);
   	  for(t = 0;t < a;t++){
+  	  	i = 0;
   	    while(str[t][i]){
   	      s[i] = str[t][i];
    	      i++;
